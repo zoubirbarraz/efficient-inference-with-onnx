@@ -42,10 +42,8 @@ For more detailed information about the ONNX format, check the official [ONNX do
 Before getting started, make sure you have the following libraries installed:
 
 ```bash
-pip install torch torchvision onnx onnxruntime numpy
+pip install torch torchvision onnx onnxruntime numpy onnxruntime-tools 
 ```
-
-You can find all the dependencies in the `requirements.txt` file.
 
 ---
 
@@ -58,7 +56,6 @@ Follow the steps provided in the repo.
 ## Running Inference Using ONNX Runtime
 
 After exporting the model, you can use ONNX Runtime to run inference on the ONNX model:
-
 
 See the code provided in the repo.
 
